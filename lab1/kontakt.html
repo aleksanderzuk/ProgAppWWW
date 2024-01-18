@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pl-PL>
+<head>
+
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="pl" />
+<meta name="Author" content="Aleksander Żuk" />
+<title>Piłka nożna okiem amatora</title>
+
+<style>
+
+#menu {
+background-color:black;
+color: white;
+padding: 10px;
+font-size: 200%;
+}
+#menu table{
+width:100%;
+}
+#menu th{
+padding: 15px;
+background-color:darkred;
+}
+#menu a {
+text-decoration: none;
+color:white;
+}
+h1 { 
+color: black;
+
+font-size: 500%;
+text-align:center;
+padding-top: 20px;
+}
+p{
+font-size: 300%;
+color: black;
+text-align:center;
+}
+p.clear {
+clear:both;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: white;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=wyslij] {
+  background-color: green;
+  color: white;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+
+<body style="background-color:lightgray;">
+
+<div id = menu>
+<table>
+<tr>
+<th> <a href ="gotowa strona lab1.html"> Menu </th>
+<th> <a href ="Na2Nozke.html"> Na2Nóżkę </th>
+<th> <a href ="PremierLeague.html"> Premier League </th>
+<th> <a href ="MlodePerelki.html"> Mlode Perelki </th>
+<th> <a href ="oMnie.html"> O mnie </th>
+<th> <a href ="kontakt.html"> Kontakt </th>
+</tr>
+</table>
+</div>
+
+<h1> Kontakt </h1>
+<hr>
+<p> Zachęcam do kontaktu w ramach współpracy i ewentualnych pytań </p>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="email">Twój adres</label>
+    <input type="text" id="fname" name="email" placeholder="Adres E-mail">
+
+
+    <label for="wiadomość">Wiadomość</label>
+    <textarea id="wiadomosc" name="wiadomosc" placeholder="Napisz" style="height:200px"></textarea>
+
+    <input type="wyslij" value="Wyślij">
+  </form>
+</div>
+
+</body>
+</html>
